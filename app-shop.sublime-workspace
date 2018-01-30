@@ -1,0 +1,350 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"USUA",
+				"USUARIO_NO_VERIFICADO〔constant〕"
+			],
+			[
+				"usu",
+				"$usuario〔variable〕"
+			],
+			[
+				"USU",
+				"USUARIO_VERIFICADO〔constant〕"
+			],
+			[
+				"PRO",
+				"PRODUCTO_NO_DISPONIBLE〔constant〕"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"a",
+				"ajax\t$.ajax()"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"img",
+				"img-responsive"
+			],
+			[
+				"th",
+				"thead\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"whi",
+				"width"
+			],
+			[
+				"hei",
+				"max-height"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 381.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 576.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/app-shop"
+	],
+	"file_history":
+	[
+		"/C/Users/User/ApiRestful/app/Http/Controllers/User/UserController.php",
+		"/C/Users/User/ApiRestful/app/User.php",
+		"/C/Users/User/ApiRestful/app/Buyer.php",
+		"/C/Users/User/ApiRestful/app/Http/Controllers/Buyer/BuyerController.php",
+		"/C/Users/User/ApiRestful/app/Http/Controllers/Seller/SellerController.php",
+		"/C/Users/User/ApiRestful/app/Seller.php",
+		"/C/Users/User/ApiRestful/routes/api.php",
+		"/C/Users/User/ApiRestful/app/Transaction.php",
+		"/C/Users/User/ApiRestful/database/seeds/DatabaseSeeder.php",
+		"/C/Users/User/ApiRestful/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/Users/User/ApiRestful/database/factories/UserFactory.php",
+		"/C/Users/User/ApiRestful/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php",
+		"/C/Users/User/ApiRestful/database/migrations/2018_01_22_212626_category_product_table.php",
+		"/C/Users/User/ApiRestful/app/Product.php",
+		"/C/Users/User/ApiRestful/database/migrations/2018_01_22_192031_create_products_table.php",
+		"/C/Users/User/ApiRestful/routes/web.php",
+		"/C/Users/User/ApiRestful/.env",
+		"/C/Users/User/ApiRestful/app/Category.php",
+		"/C/Users/User/ApiRestful/app/Providers/AppServiceProvider.php",
+		"/C/Users/User/ApiRestful/database/migrations/2018_01_22_192058_create_transactions_table.php",
+		"/C/Users/User/ApiRestful/database/migrations/2018_01_22_192127_create_categories_table.php",
+		"/C/Users/User/ApiRestful/Homestead.yaml",
+		"/C/Users/User/ApiRestful/config/database.php",
+		"/C/Users/User/ApiRestful/app/Providers/RouteServiceProvider.php",
+		"/C/Users/User/ApiRestful/app/Http/Kernel.php",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/APIRestful/app/User.php",
+		"/C/APIRestful/vendor/laravel/framework/src/Illuminate/Notifications/HasDatabaseNotifications.php",
+		"/C/APIRestful/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php",
+		"/C/APIRestful/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php",
+		"/C/APIRestful/composer.json",
+		"/C/ETLS/ETL_TELEFONICA_CI/ARCHIVOS/bd_calendario.sql",
+		"/C/www/TEBE_FIREBASE/public/js/main.js",
+		"/C/www/TEBE_FIREBASE/public/public/index.html",
+		"/C/www/TEBE_FIREBASE/index.html",
+		"/C/wamp64/www/LandingPage/landing/js/app.js",
+		"/C/wamp64/www/LandingPage/landing/index.php",
+		"/C/wamp64/www/udemy/ajax/js/ajax.js",
+		"/C/wamp64/www/udemy/ajax/index.html",
+		"/C/wamp64/www/udemy/ajax/php/servicios/get.usuarios.php",
+		"/C/wamp64/www/udemy/ajax/actualizar.html",
+		"/C/wamp64/www/udemy/ajax/php/classes/class.Database.php",
+		"/C/wamp64/www/udemy/ajax/js/actualizar.js",
+		"/C/wamp64/www/udemy/ajax/php/servicios/post.usuarios.php",
+		"/C/wamp64/www/udemy/ajax/php/servicios/post.guardarusuarios.php",
+		"/C/wamp64/www/udemy/ajax/insert.html",
+		"/C/wamp64/www/udemy/ajax/css/style.css",
+		"/C/udemy/jquery crud/ajax/index.html",
+		"/C/udemy/jquery crud/ajax/php/classes/class.Database.php",
+		"/C/Users/User/Desktop/prueba.js",
+		"/C/udemy/jqueryAvanzado/jquery-avanzado-master/005.html",
+		"/C/udemy/jqueryAvanzado/jquery-avanzado-master/004.html",
+		"/C/udemy/jqueryAvanzado/jquery-avanzado-master/001.html",
+		"/C/Users/User/Desktop/promp.html",
+		"/C/Users/User/Desktop/promp.js",
+		"/C/Users/User/Desktop/asdasd.css",
+		"/C/Users/User/Desktop/asdsd.js",
+		"/C/Users/User/Desktop/Nueva carpeta (2)/proyecto-basico-master/index.html",
+		"/C/Users/User/Desktop/Nueva carpeta (2)/proyecto-basico-master/plugins/fancybox/fancybox_loading.gif",
+		"/C/Users/User/Desktop/Nueva carpeta (2)/proyecto-basico-master/css/estilo.css",
+		"/C/Users/User/Desktop/Nueva carpeta (2)/proyecto-basico-master/plugins/fancybox/fancybox_loading@2x.gif",
+		"/C/Users/User/Desktop/Nueva carpeta (2)/proyecto-basico-master/app.js",
+		"/C/Users/User/Desktop/Nueva carpeta (2)/proyecto-basico-master/plugins/fancybox/jquery.fancybox.css",
+		"/C/Users/User/Desktop/Nueva carpeta (2)/proyecto-basico-master/libs/jquery.min.js",
+		"/C/Users/User/Desktop/carpeta/production/admin-template/index.html",
+		"/C/Users/User/Downloads/gentelella-master/production/index2.html",
+		"/C/WWW_NET/WebMetro/SlcWebMetro/WebMetro/Views/Shared/_LayoutDashboard.cshtml",
+		"/C/WWW_NET/WebMetro/SlcWebMetro/WebMetro/Views/Dashboard/index2.html",
+		"/C/WWW_NET/WebMetro/SlcWebMetro/WebMetro/Views/Dashboard/Index.cshtml",
+		"/C/wamp64/www/carga_audio_moca/index.php",
+		"/C/Users/User/AppData/Local/Temp/fz3temp-1/portada.php",
+		"/C/Users/User/AppData/Local/Temp/fz3temp-1/infoPortada.php",
+		"/C/Users/User/Downloads/amcharts.editor (4).html",
+		"/C/Users/User/Downloads/amcharts.editor (2).html",
+		"/C/Pruebas/index.html",
+		"/C/Pruebas/css/main.css",
+		"/C/Users/User/Desktop/indexcart.html",
+		"/C/Users/User/OneDrive - Cadem S.A/wom/sitio/MonitoreoCalidad/MonitoreoCalidad/Dashboard2/index.html",
+		"/C/Users/User/Downloads/gentelella-master/production/inbox.html",
+		"/C/Users/User/OneDrive - Cadem S.A/wom/sitio/MonitoreoCalidad/MonitoreoCalidad/Dashboard/chartjs.html",
+		"/C/Users/User/OneDrive - Cadem S.A/wom/sitio/MonitoreoCalidad/MonitoreoCalidad/Dashboard/index.html",
+		"/C/Users/User/Downloads/gentelella-master/production/index.html",
+		"/C/Users/User/OneDrive - Cadem S.A/wom/sitio/MonitoreoCalidad/MonitoreoCalidad/Dashboard2/inbox.html",
+		"/C/production/index.html",
+		"/C/Users/User/OneDrive - Cadem S.A/wom/sitio2/index.html",
+		"/C/Users/User/Downloads/cambiarEntreImagenesCSS3.html",
+		"/C/Users/User/Downloads/responsive-full-background-image-master/responsive-full-background-image.css",
+		"/C/Users/User/Downloads/responsive-full-background-image-master/responsive-full-background-image-demo.html",
+		"/C/wamp64/www/cadem/carga_audio_moca/index.php"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mail",
+			"9gcR9Dvwxu9HxEKAv72XAi0g9RhoQLRpQHzrD3UG",
+			"face",
+			"5940",
+			"img-thumbnail",
+			"NOSOTROS",
+			"cargar_mapa",
+			"ejecutar_idu",
+			"es_string",
+			"ejecutar_idu",
+			"es_string",
+			"crypt",
+			"ejecutar_idu",
+			"getConnection",
+			"<div id=\"page-title\">",
+			"right_col",
+			"indice",
+			"Dashboard",
+			"WOM",
+			"Total Users ",
+			"chart"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "app-shop.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 526.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
