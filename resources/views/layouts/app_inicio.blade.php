@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="../assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>Sign Up Page - Material Kit by Creative Tim</title>
+    <title>Delicious Gourmet</title>
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
@@ -18,27 +18,41 @@
     <!-- CSS Files -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('css/material-kit.css') }}" rel="stylesheet" />
-
+    <link href="{{ asset('css/animate.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/main.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/carrousel.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/plugins/fancybox/jquery.fancybox.css') }}" rel="stylesheet" />
+    
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUMrJ3hOZnYREMFMpI90vN-_dpiBTER7c" async defer></script>
 
 </head>
-
-<body class="@yield('body-class')">
-    <nav class="navbar navbar-transparent navbar-absolute">
-        <div class="container">
+<body class="@yield('body-class')" onload="cargar_mapa()">
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="{{ url('/') }}">App Shop</a>
-                <!--<a class="navbar-brand" href="{{ url('register') }}">App Shop</a>-->
-                <!--<a class="navbar-brand" href="/login">App Shop</a>-->
-            </div>
+                            <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                                <span class="sr-only">Toggle Navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                    </button>
+                            </div> <!--./navbar-header-->
+                            
 
-            <div class="collapse navbar-collapse" id="navigation-example">
+                            <div class="navbar-collapse collapse">
+                                    <ul class="nav nav-justified">    
+                                        <li><a data-scroll='' href="#nosotros">Nosotros</a></li>
+                                        <li><a data-scroll='' href="#carta">Carta</a></li>
+                                        <!--<li><a data-scroll='' href="#pantallas">Promociones</a></li>-->
+                                        <li><a data-scroll='' href="#app">Contacto</a></li>
+                                        <li><a data-scroll='' href="#ubicacion">Ubicación</a></li>   <li><a href="{{ route('login') }}">Ingresar</a></li>                              
+                                    </ul>
+                            </div> 
+<!--
+        <div class="collapse navbar-collapse" id="navigation-example">
                 <ul class="nav navbar-nav navbar-right">
                 @guest
                     <li><a href="{{ route('login') }}">Ingresar</a></li>
@@ -64,27 +78,14 @@
                         </ul>
                     </li>
                 @endguest
-<!--                    
-                    <li>
-                        <a href="https://twitter.com/CreativeTim" target="_blank" class="btn btn-simple btn-white btn-just-icon">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/CreativeTim" target="_blank" class="btn btn-simple btn-white btn-just-icon">
-                            <i class="fa fa-facebook-square"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/CreativeTimOfficial" target="_blank" class="btn btn-simple btn-white btn-just-icon">
-                            <i class="fa fa-instagram"></i>
-                        </a>
-                    </li>
--->
                 </ul>
-            </div>
-        </div>
-    </nav>
+            </div> 
+-->
+                    </div> <!--./container-->
+        </div> <!--./navbar navbar-->
+
+
+<!-- Fin Navbar -->
 
     <div class="wrapper">
         @yield('content');
@@ -105,6 +106,25 @@
 
     <!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
     <script src="{{ asset('/js/material-kit.js') }}" type="text/javascript"></script>
+
+
+
+<!----landing page------>
+
+        <!--<script>window.jQuery || document.write('<script src="js/vendor/jquery.js"><\/script>')</script>-->
+
+                
+        <script src="{{ asset('css/plugins/fancybox/jquery.fancybox.js') }}" type="text/javascript"></script>
+        
+
+        <script src="{{ asset('/js/bootstrapValidator.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('/js/smooth-scroll.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('/js/waypoints.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('/js/main.js') }}" type="text/javascript"></script>
+
+        <script src="{{ asset('/js/app.js') }}" type="text/javascript"></script>
+        <!--<script src="{{ asset('/js/app2.js') }}" type="text/javascript"></script>-->
+        
 
 </html>
 

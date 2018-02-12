@@ -1,183 +1,242 @@
-@extends('layouts.app')
+@extends('layouts.app_inicio')
 
 @section('body-class', 'landing-page')
 
 @section('content')
-<div class="header header-filter" style="background-image: url('https://images.unsplash.com/photo-1423655156442-ccc11daa4e99?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h1 class="title">Write the best title for your page.</h1>
-                <h4>Every landing page needs a small description after the big bold title, that's why we added this text here. Add here all the information that can make you or your product create the first impression.</h4>
-                <br />
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger btn-raised btn-lg">
-                    <i class="fa fa-play"></i> Watch video
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="main main-raised">
-    <div class="container">
-        <div class="section text-center section-landing">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h2 class="title">Let's talk product</h2>
-                    <h5 class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more.</h5>
+
+
+        <section id="principal" class="text-center">
+                <!--<img src="img/sp1.jpg" class="img-responsive">-->
+                <!--<img src="img/appPrincipal.png" class="img-responsive">-->
+    
+
+                        <div id="carousel-1" class="carousel slide" data-ride="carousel">               
+                               <ol class="carousel-indicators">
+                                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-1" data-slide-to="1"></li>
+                                <li data-target="#carousel-1" data-slide-to="2"></li>
+                                <li data-target="#carousel-1" data-slide-to="3"></li>
+                                <li data-target="#carousel-1" data-slide-to="4"></li>
+                               </ol>
+                                            <div class="carousel-inner" role="listbox">
+
+                                                <div class="item active">
+                                                    <img src="{{ asset('img/inicio/sp3.jpg') }}" style="width:100%" class="img-responsive" alt="Third Slide">    
+
+                                                    <!--<img src="img/sp3.jpg" style="width:100%;height:600px"  class="img-thumbnail" alt="Third Slide">--> 
+
+                                                    <div class="carousel-caption">
+                                                        <h3></h3>
+                                                        <p></p>
+                                                    </div>      
+                                                </div> 
+                                                <div class="item">
+                                                    <img src= "{{ asset('img/inicio/nuevas/deliciousSushi3.jpg') }}" style="width:100%"  class="img-responsive" alt="Third Slide">
+
+                                                    <!--<img src="img/nuevas/deliciousSushi3.jpg" style="width:100%;height:600px"  class="img-thumbnail" alt="Third Slide">-->
+
+
+                                                    <div class="carousel-caption">
+                                                        <h3></h3>
+                                                        <p></p>
+                                                    </div>      
+                                                </div> 
+
+                                                <div class="item">
+                                                 <img src="{{ asset('img/inicio/nuevas/DiaAmor2.jpg') }}" style="width:100%" class="img-responsive" alt="First Slide">
+
+                                                    <!--<img src="img/sp5.png" style="width:100%;height:500px" class="img-thumbnail" alt="Second Slide">    -->
+                                                    <div class="carousel-caption">
+                                                        <h3></h3>
+                                                        <p></p>
+                                                    </div>      
+                                                </div>
+
+                                                <div class="item">
+
+                                                 <img src="{{ asset('img/inicio/nuevas/LocalNoche2.jpg') }}" style="width:100%" class="img-responsive" alt="First Slide">
+                                                    <!--<img src="img/sp5.png" style="width:100%;height:500px" class="img-thumbnail" alt="Second Slide">    -->
+                                                    <div class="carousel-caption">
+                                                        <h3></h3>
+                                                        <p></p>
+                                                    </div>      
+                                                </div>
+
+                                                <div class="item">
+                                                   
+                                                    <img src="{{ asset('img/inicio/sp2.jpg') }}" style="width:100%" class="img-responsive" alt="Second Slide">    
+                                                    <div class="carousel-caption">
+                                                        <h3></h3>
+                                                        <p></p>
+                                                    </div>      
+                                                </div> 
+
+                                                <div class="item">                                              
+                                                    <img src="{{ asset('img/inicio/sp4.jpg') }}" style="width:100%" class="img-responsive" alt="First Slide">
+                                                    <!--<img src="img/sp1.jpg" style="width:1200px;height:400px" class="img-responsive" alt="First Slide">-->
+                                                     
+                                                    <div class="carousel-caption">
+                                                        <h3></h3>
+                                                        <p></p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item">                                              
+                                                    <img src="{{ asset('img/inicio/nuevas/delicious3.jpg') }}" style="width:100%" class="img-responsive" alt="First Slide">                                                    
+                                                    <div class="carousel-caption">
+                                                        <h3></h3>
+                                                        <p></p>
+                                                    </div>
+                                                </div>
+                                        </div>  
+                              <a class="left carousel-control" href="#carousel-1" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Anterior</span>
+                              </a>
+                              <a class="right carousel-control" href="#carousel-1" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Siguiente</span>
+                              </a>
+                         </div>
+        </section> <!-- #/principal -->
+
+        <div class="">
+            <div class="nosotro row ">
+                <div class="col-sm-12">
+                    <div  class="jumbotron" style="background-color: black; color: white">                      
+                        <div class="text-center">
+
+                            <img class="img-thumbnail" alt="Responsive image" src="{{ asset('img/inicio/nuevas/delicious.jpg') }}"/>
+
+                            <h1 class="text-center">
+                            <span>Delicious Gourmet</span>
+                            </h1>
+                            <h3 class="subtitle text-center">La mejor comida para disfrutar en familia</h3>
+                            <!--
+                            <img src="img/chef.png" style="width:200px;height:100px;"/>
+                            <span>Delicious Gourmet</span>
+                            <img src="img/chef.png" style="width:200px;height:100px; text-align: right;">
+                            </h1>
+                            <h3 class="subtitle animated bounceInRight slow text-center">La mejor comida para disfrutar en familia</h3>
+                            -->
+                        </div>
+                    </div>  
                 </div>
             </div>
-
-            <div class="features">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-primary">
-                                <i class="material-icons">chat</i>
+        </div> 
+        <section id="nosotros"  >
+                <h1 class="text-center">Nosotros</h1>
+                <div class="separador"></div>
+                <div class="container">
+                    <div class="panel panel-default">
+                    <!--<div class="panel-heading"><br/></div>-->
+                     <div class="panel-body">   
+                        <div class="nosotro row ">
+                            <div class="ol-md-6 col-sm-6 col-xs-12">
+                        <img src="{{ asset('img/inicio/logo3.png') }}" class="img-responsive"  alt="Nosotros">
+                        <!--<img src="img/logo3.png" class="img-responsive"  alt="Nosotros">-->
                             </div>
-                            <h4 class="info-title">First Feature</h4>
-                            <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                            <div class="col-md-6 col-sm-6 col-xs-12" style=""">                         
+                                 </br></br>
+                                <span style="font-size:20px">
+                                 Estamos preocupados de brindar un excelente servicio, para sobrepasar las expectativas de nuestros clientes, entregando una amplia variedad de comida, con la mejor preparación  y atención, con platos de excelente calidad a un precio conveniente,  junto a  las mejores promociones para que puedas disfrutar de nuestro sushi, sandwich, chorrillanas y mas.
+                                 Ven a disfrutar y deleitar tu paladar con las más ricas texturas y sabores.
+                                 </span>
+                                 </br></br>
+                                                      
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-success">
-                                <i class="material-icons">verified_user</i>
-                            </div>
-                            <h4 class="info-title">Second Feature</h4>
-                            <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-danger">
-                                <i class="material-icons">fingerprint</i>
-                            </div>
-                            <h4 class="info-title">Third Feature</h4>
-                            <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                        </div>
+                     </div>
+                     </div>               
                     </div>
                 </div>
-            </div>
-        </div>
+        </section>                
 
-        <div class="section text-center">
-            <h2 class="title">Here is our team</h2>
+      <section id="carta" class="grisBG">
+                <div class="container">
+                    <h1 class="text-center">Carta</h1>
+                    <div class="separador"></div>
 
-            <div class="team">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="team-player">
-                            <img src="../assets/img/avatar.jpg" alt="Thumbnail Image" class="img-raised img-circle">
-                            <h4 class="title">Gigi Hadid <br />
-                                <small class="text-muted">Model</small>
-                            </h4>
-                            <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                            <a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-twitter"></i></a>
-                            <a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-instagram"></i></a>
-                            <a href="#pablo" class="btn btn-simple btn-just-icon btn-default"><i class="fa fa-facebook-square"></i></a>
-                        </div>
+                    <div class="row text-center ">
+                        <div class="col-sm-12">
+
+                            <a class="fancybox" rel="group" href="{{ asset('img/inicio/nuevas/cartaVienesasAsChurrascos.jpg') }}">
+                                <img style="width:350px;height:400px" src="{{ asset('img/inicio/nuevas/cartaVienesasAsChurrascos.jpg') }}" alt="" />
+                            </a>
+                            
+                            <a class="fancybox" rel="group" href="{{ asset('img/inicio/nuevas/cartaVienesasAsChurrascos2.jpg') }}">
+                                <img style="width:350px;height:400px" src="{{ asset('img/inicio/nuevas/cartaVienesasAsChurrascos2.jpg') }}" alt="" />
+                            </a>
+                         </div>                        
                     </div>
-                    <div class="col-md-4">
-                        <div class="team-player">
-                            <img src="../assets/img/christian.jpg" alt="Thumbnail Image" class="img-raised img-circle">
-                            <h4 class="title">Christian Louboutin<br />
-                                <small class="text-muted">Designer</small>
-                            </h4>
-                            <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                            <a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-twitter"></i></a>
-                            <a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-linkedin"></i></a>
-                        </div>
+                    </br>
+
+                    <div class="row text-center ">
+                        <div class="col-sm-12">
+                            <a class="fancybox" rel="group" href="{{ asset('img/inicio/nuevas/cartaSushiPromos.jpg') }}">
+                                <img style="width:350px;height:400px" src="{{ asset('img/inicio/nuevas/cartaSushiPromos.jpg') }}" alt="" />
+                            </a>
+                            
+                            <a class="fancybox" rel="group" href="{{ asset('img/inicio/nuevas/cartaSushiPromos.jpg') }}">
+                                <img style="width:350px;height:400px" src="{{ asset('img/inicio/nuevas/cartaSushiPromos.jpg') }}" alt="" />
+                            </a>
+
+                         </div>                        
                     </div>
-                    <div class="col-md-4">
-                        <div class="team-player">
-                            <img src="../assets/img/kendall.jpg" alt="Thumbnail Image" class="img-raised img-circle">
-                            <h4 class="title">Kendall Jenner<br />
-                                <small class="text-muted">Model</small>
-                            </h4>
-                            <p>You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                            <a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-google-plus"></i></a>
-                            <a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-youtube-play"></i></a>
-                            <a href="#pablo" class="btn btn-simple btn-just-icon btn-default"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+                    </br>
+                 </div>
+        </section> <!-- #/ubicacion -->
 
 
-        <div class="section landing-section">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h2 class="text-center title">Work with us</h2>
-                    <h4 class="text-center description">Divide details about your product or agency work into parts. Write a few lines about each one and contact us about any further collaboration. We will responde get back to you in a couple of hours.</h4>
-                    <form class="contact-form">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group label-floating">
-                                    <label class="control-label">Your Name</label>
-                                    <input type="email" class="form-control">
+        <section id="app">
+                <div class="container">
+                  <h1 class="text-center">Contacto</h1>
+                  <div class="separador"></div>
+                    <div class="row text-center ">
+
+                                <div class="col-sm-4">
+                                        <div class="social anima1">
+                                                <i class="fa fa-map-marker"></i>
+                                        </div>
+                                        <h2>Av. Ejercito Libertador 3101, Puente Alto</h2>
+                                        <div class="separador"></div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group label-floating">
-                                    <label class="control-label">Your Email</label>
-                                    <input type="email" class="form-control">
+
+                                <div class="col-sm-4">
+                                        <div class="social anima2">
+                                                <i class="fa fa-phone"></i>
+                                        </div>
+                                        <!--<h2>23-2656940</h2>-->
+                                        <a href="tel:232656940" target="_blank"><h2>23-2656940</h2></a>
+                                        <div class="separador"></div>
                                 </div>
-                            </div>
-                        </div>
 
-                        <div class="form-group label-floating">
-                            <label class="control-label">Your Messge</label>
-                            <textarea class="form-control" rows="4"></textarea>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-md-4 col-md-offset-4 text-center">
-                                <button class="btn btn-primary btn-raised">
-                                    Send Message
-                                </button>
-                            </div>
+                                <div class="col-sm-4">
+                                        <div class="social anima3">
+                                                <i class="fa fa-facebook"></i>
+                                        </div>
+                                        <a href="https://www.facebook.com/sushisandwichymas/" target="_blank"><h2>Facebook</h2></a>
+                                        <div class="separador"></div>
+                                </div>
                         </div>
-                    </form>
                 </div>
-            </div>
+        </section> <!-- #/app -->
 
-        </div>
-    </div>
 
-</div>
+        <section id="ubicacion" class="grisBG">
+                <div class="container">
+                <h1 class="text-center">Ubicación</h1>
+                  <div class="separador"></div>
+                  <div id='gmap_canvas' style='height:550px;width:100%;'></div>
+               </div>
+        </section> <!-- #/ubicacion -->
 
-<footer class="footer">
-    <div class="container">
-        <nav class="pull-left">
-            <ul>
-                <li>
-                    <a href="http://www.creative-tim.com">
-                        Creative Tim
-                    </a>
-                </li>
-                <li>
-                    <a href="http://presentation.creative-tim.com">
-                       About Us
-                    </a>
-                </li>
-                <li>
-                    <a href="http://blog.creative-tim.com">
-                       Blog
-                    </a>
-                </li>
-                <li>
-                    <a href="http://www.creative-tim.com/license">
-                        Licenses
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <div class="copyright pull-right">
-            &copy; 2016, made with <i class="fa fa-heart heart"></i> by Creative Tim
-        </div>
-    </div>
-</footer>
+
+
+
+
+        <section class="text-center">
+                Todos los derechos reservados a Delicious Gourmet 
+         </section>
 @endsection

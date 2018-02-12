@@ -63,8 +63,8 @@ map = new google.maps.Map( document.getElementById('gmap_canvas'), myOptions )
 /*var url = "https://www.google.cl/maps/place/33%C2%B034'33.0%22S+70%C2%B035'43.2%22W/@-33.5836517,-70.5971029,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d-33.5758283!4d-70.5953443";*/
 var url = "https://www.google.cl/maps/place/Av.+Ejercito+Libertador+3101,+Puente+Alto,+Regi%C3%B3n+Metropolitana/@-33.583605,-70.59777,19z/data=!3m1!4b1!4m5!3m4!1s0x9662d73f5ca8a749:0xa6b402e327dea74d!8m2!3d-33.5836061!4d-70.5972215";
 
-var contentString = '<a href = '+ url + ' target="_blank" style="color:black">' + 
-                    'Delicious Gourmet, Av. Ejercito Libertador 3101, Puente Alto!' +
+var contentString = '<a href = '+ url + ' target="_blank">' + 
+                    'Delicious Gourmet, Av. Ejercito Libertador 3101, Puente Alto!'+
                     '</a>';
 
 
